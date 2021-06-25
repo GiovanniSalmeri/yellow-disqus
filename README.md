@@ -1,5 +1,3 @@
-<p align="right"><a href="README-de.md">Deutsch</a> &nbsp; <a href="README.md">English</a></p>
-
 Disqus 0.8.7
 ============
 Show Disqus comments on blog.
