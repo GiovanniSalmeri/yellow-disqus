@@ -2,7 +2,7 @@ Disqus 0.8.7
 ============
 Show Disqus comments on blog.
 
-<p align="center"><img src="disqus-screenshot.png?raw=true" width="795" height="836" alt="Screenshot"></p>
+<p align="center"><img src="disqus-screenshot.png?raw=true" alt="Screenshot"></p>
 
 ## How to show comments
 
