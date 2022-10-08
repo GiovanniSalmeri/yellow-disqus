@@ -59,4 +59,4 @@ This extension uses [Disqus](https://disqus.com). The service provider collects 
 
 ## Developer
 
-Giovanni Salmeri. [Get help](https://github.com/GiovanniSalmeri/yellow-disqus/issues).
+Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/)
