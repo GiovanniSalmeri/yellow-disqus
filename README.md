@@ -1,4 +1,4 @@
-# Disqus 0.8.7
+# Disqus 0.8.8
 
 Show Disqus comments on blog.
 
