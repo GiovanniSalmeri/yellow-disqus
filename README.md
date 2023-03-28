@@ -63,4 +63,4 @@ This extension uses [Disqus](https://disqus.com). Thank you for the free service
 
 ## Developer
 
-Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/)
+Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/).
