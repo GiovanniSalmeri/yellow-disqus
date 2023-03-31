@@ -4,11 +4,17 @@ Show Disqus comments on blog.
 
 <p align="center"><img src="disqus-screenshot.png?raw=true" alt="Screenshot"></p>
 
+## How to install an extension
+
+[Download ZIP file](https://github.com/GiovanniSalmeri/yellow-disqus/archive/main.zip) and copy it into your `system/extensions` folder. [Learn more about extensions](https://github.com/annaesvensson/yellow-update).
+
 ## How to show comments
 
 [Disqus](https://disqus.com) is a comment service for websites. To use this extension open file `system/extensions/yellow-system.ini` and change `DisqusShortname: website`. You can find the name of your website in the Disqus dashboard. Comments are shown on blog pages. To show comments on other pages add a `[disqus]` shortcut to a page.
 
 If you don't want that comments are shown on a page, set `Comment: exclude` in the [page settings](https://github.com/annaesvensson/yellow-core#settings-page) at the top of a page.
+
+You should know that the service provider collects personal data and uses cookies.
 
 ## Examples
 
@@ -25,6 +31,14 @@ Content file with comments:
 
     [disqus]
 
+Preventing that comments are shown:
+
+    ---
+    Title: Example page
+    Comment: exclude
+    ---
+    This page does not show comments.
+
 Layout file with comments:
 
     <?php $this->yellow->layout("header") ?>
@@ -37,26 +51,16 @@ Layout file with comments:
     </div>
     <?php $this->yellow->layout("footer") ?>
 
-Preventing that comments are shown:
-
-    ---
-    Title: Example page
-    Comment: exclude
-    ---
-    This page does not show comments.
-
 ## Settings
 
 The following settings can be configured in file `system/extensions/yellow-system.ini`:
 
 `DisqusShortname` = your Disqus name  
 
-## Installation
+## Acknowledgements
 
-[Download extension](https://github.com/GiovanniSalmeri/yellow-disqus/archive/main.zip) and copy zip file into your `system/extensions` folder. Right click if you use Safari.
-
-This extension uses [Disqus](https://disqus.com). The service provider collects personal data and uses cookies.
+This extension uses [Disqus](https://disqus.com). Thank you for the free service.
 
 ## Developer
 
-Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/)
+Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/).
