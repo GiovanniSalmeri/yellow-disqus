@@ -34,7 +34,7 @@ class YellowDisqus {
             $extensionLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreExtensionLocation");
             $output = "<script type=\"text/javascript\" defer=\"defer\" src=\"{$extensionLocation}disqus.js\"></script>\n";
         }
-        if ($name=="disqus" || $name=="comments") {
+        if ($name=="disqus" || $name=="comment") {
             $output = $this->onParseContentShortcut($page, "disqus", "", "block");
         }
         return $output;
