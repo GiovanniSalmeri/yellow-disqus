@@ -59,7 +59,7 @@ The following settings can be configured in file `system/extensions/yellow-syste
 
 ## Acknowledgements
 
-This extension was previously maintained by Datenstrom. Thank you for the good work. This extension uses [Disqus](https://disqus.com). Thank you for the free service.
+This extension was previously maintained by Mark Seuffert. Thank you for the good work. This extension uses [Disqus](https://disqus.com). Thank you for the free service.
 
 ## Developer
 
