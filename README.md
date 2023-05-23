@@ -1,6 +1,6 @@
 # Disqus 0.8.8
 
-Show Disqus comments on blog.
+Disqus comments.
 
 <p align="center"><img src="disqus-screenshot.png?raw=true" alt="Screenshot"></p>
 
@@ -53,7 +53,7 @@ Layout file with comments:
 
 ## Settings
 
-The following settings can be configured in file `system/extensions/yellow-system.ini`:
+The following setting can be configured in file `system/extensions/yellow-system.ini`:
 
 `DisqusShortname` = your Disqus name  
 
