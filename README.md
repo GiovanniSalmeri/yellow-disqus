@@ -45,8 +45,8 @@ Layout file with comments:
     <div class="content">
     <div class="main" role="main">
     <h1><?php echo $this->yellow->page->getHtml("titleContent") ?></h1>
-    <?php echo $this->yellow->page->getContent() ?>
-    <?php echo $this->yellow->page->getExtra("disqus") ?>
+    <?php echo $this->yellow->page->getContentHtml() ?>
+    <?php echo $this->yellow->page->getExtraHtml("disqus") ?>
     </div>
     </div>
     <?php $this->yellow->layout("footer") ?>
