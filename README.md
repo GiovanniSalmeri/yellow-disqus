@@ -1,4 +1,4 @@
-# Disqus 0.8.8
+# Disqus 0.9.1
 
 Disqus comments.
 
