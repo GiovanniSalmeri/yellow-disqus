@@ -11,7 +11,7 @@ class YellowDisqus {
         $this->yellow->system->setDefault("disqusShortname", "yellow");
     }
     
-    // Handle page content of shortcut
+    // Handle page content element
     public function onParseContentElement($page, $name, $text, $attributes, $type) {
         $output = null;
         if ($name=="disqus" && ($type=="block" || $type=="inline") && !preg_match("/exclude/i", $page->get("comment"))) {
