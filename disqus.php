@@ -2,7 +2,7 @@
 // Disqus extension, https://github.com/GiovanniSalmeri/yellow-disqus
 
 class YellowDisqus {
-    const VERSION = "0.9.1";
+    const VERSION = "1.0.0";
     public $yellow;         // access to API
     
     // Handle initialisation
@@ -28,7 +28,7 @@ class YellowDisqus {
         $output = null;
         if ($name=="header") {
             $assetLocation = $this->yellow->system->get("coreServerBase").$this->yellow->system->get("coreAssetLocation");
-            $output = "<script type=\"text/javascript\" defer=\"defer\" src=\"{$assetLocation}disqus.js\"></script>\n";
+            $output = "<script defer=\"defer\" src=\"{$assetLocation}disqus.js\"></script>\n";
         }
         if ($name=="disqus" || $name=="comment") {
             $output = $this->onParseContentElement($page, "disqus", "", "", "block");

@@ -1,8 +1,8 @@
-# Disqus 0.9.1
+# Disqus 1.0.0
 
-Disqus comments.
+Disqus comments. Developed by Giovanni Salmeri.
 
-<p align="center"><img src="SCREENSHOT.png" alt="Screenshot"></p>
+<p align="center"><img src="screenshot.png" alt="Screenshot"></p>
 
 ## How to install an extension
 
@@ -61,6 +61,4 @@ The following setting can be configured in file `system/extensions/yellow-system
 
 This extension was previously maintained by Mark Seuffert. Thank you for the good work. This extension uses [Disqus](https://disqus.com). Thank you for the free service.
 
-## Developer
-
-Giovanni Salmeri. [Get help](https://datenstrom.se/yellow/help/).
+Do you have questions? [Get help](https://datenstrom.se/yellow/help/).
